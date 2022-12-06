@@ -1,1 +1,1 @@
-ALTER TABLE users ADD nickname VARCHAR(20) NULL;
+ALTER TABLE "public"."users" ADD nickname VARCHAR(20) NULL;
