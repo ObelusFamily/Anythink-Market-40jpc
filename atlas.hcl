@@ -16,7 +16,7 @@ env "local" {
 
   // Define the URL of the Dev Database for this environment
   // See: https://atlasgo.io/concepts/dev-database
-  dev = "postgres://postgres:${var.pass}@localhost:5433/test?sslmode=disable"
+  dev = "postgres://postgres:${var.pass}@${var.addr}/test?sslmode=disable"
 
   // The schemas in the database that are managed by Atlas.
   schemas = ["public"]
