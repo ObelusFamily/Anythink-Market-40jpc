@@ -1,0 +1,1 @@
+export default {dark: "#170539", light: "#af93f2"}
